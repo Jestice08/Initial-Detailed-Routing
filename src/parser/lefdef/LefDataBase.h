@@ -14,11 +14,11 @@
 #include <fstream>
 #include <sstream>
 #include <cassert>
-#include "../../../include/thirdparty/lefdef/lef/include/lefrReader.hpp"
-#include "../../../include/thirdparty/lefdef/lef/include/lefwWriter.hpp"
-#include "../../../include/thirdparty/lefdef/lef/include/lefiDebug.hpp"
-#include "../../../include/thirdparty/lefdef/lef/include/lefiEncryptInt.hpp"
-#include "../../../include/thirdparty/lefdef/lef/include/lefiUtil.hpp"
+#include "../../db/lefrReader.hpp"
+#include "../../db/lefwWriter.hpp"
+#include "../../db/lefiDebug.hpp"
+#include "../../db/lefiEncryptInt.hpp"
+#include "../../db/lefiUtil.hpp"
 
 /// namespace for LefParser
 namespace LefParser {

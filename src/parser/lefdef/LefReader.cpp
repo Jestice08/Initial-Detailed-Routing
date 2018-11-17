@@ -74,7 +74,7 @@
     _db.setBusBitChars(v);
     }
 
-    void LefReader::lef_layer_cbk(lefiLayer const &v) {
+    void LefReader::lef_layer_cbk(const lefiLayer &v) {
       if (v.hasType())
       {
           if (std::string(v.type()) == "CUT")
@@ -96,7 +96,7 @@
           }
           if (std::string(v.type()) == "OVERLAP")
           {
-              parseOverlapLayer(v);
+              parseOverlapLayer( v);
               //_db.mapLayerStr2Idx()[v.name()] = _db.layerTypeVec().size();
               //_db.layerTypeVec().emplace_back(std::make_pair(3, 0));
               //INF("%s: ignore OVERLAP layer %s. Not influence routing\n", __FUNCTION__, v.name());
@@ -393,7 +393,7 @@
 
     }
 
-    IndexType LefReader::parseCutLayer(lefiLayer const &v)
+    IndexType LefReader::parseCutLayer(const lefiLayer  &v)
     {
         LefLayerCut cut = LefLayerCut();
         cut.name = std::string(v.name());
@@ -412,7 +412,7 @@
         return cutIdx;
     }
 
-    IndexType LefReader::parseRoutingLayer(lefiLayer &v)
+    IndexType LefReader::parseRoutingLayer(const lefiLayer &v)
     {
         LefLayerRouting route = LefLayerRouting();
 
@@ -477,7 +477,8 @@
         }
 
         ///spacing table
-        route.numSpacingTable = v.numSpacingTable();
+        int test = v.numSpacingTable();
+        route.setnumSpacingTable(test);
 
         for (IntType idx = 0; idx < route.numSpacingTable; ++idx)
         {
@@ -488,14 +489,14 @@
             }
             else if (spTable->isInfluence())
             {
-                AssertMsg(false, "%s: expect no influence \n", __FUNCTION__);
+                //AssertMsg(false, "%s: expect no influence \n", __FUNCTION__);
             }
             /// Spacingtable can only be influence, parallel, and twoWidth
             else
             {
                 for (IntType twoWidthIdx = 0; twoWidthIdx < spTable->twoWidths()->numWidth(); ++twoWidthIdx)
                 {
-                    DBG("%s: layer %s twoWidth %d/%d: %d\n", __FUNCTION__, v.name(), twoWidthIdx, spTable->twoWidths()->numWidth(), spTable->twoWidths()->width(twoWidthIdx));
+                    //DBG("%s: layer %s twoWidth %d/%d: %d\n", __FUNCTION__, v.name(), twoWidthIdx, spTable->twoWidths()->numWidth(), spTable->twoWidths()->width(twoWidthIdx));
                 }
             }
             /// twoWidth
@@ -507,7 +508,7 @@
         return routingIdx;
     }
 
-    void LefReader::parseOverlapLayer(lefiLayer const &v)
+    void LefReader::parseOverlapLayer(const lefiLayer &v)
     {
         LefLayerOverlap overlap = LefLayerOverlap();
         overlap.name = std::string(v.name());
@@ -527,7 +528,7 @@
         _db.overlapLayers().emplace_back(overlap);
     }
 
-    void LefReader::processRoutingLayerSpacing(LefLayerRouting &route, lefiLayer const &v, IntType spacingIdx)
+    void LefReader::processRoutingLayerSpacing(LefLayerRouting &route, const lefiLayer  &v, IntType spacingIdx)
     {
         if (v.hasSpacingName(spacingIdx))
         {
@@ -559,7 +560,7 @@
         }
     }
 
-    void LefReader::processRoutingLayerSpacingTableParallel(LefLayerRouting &route, lefiSpacingTable const *v)
+    void LefReader::processRoutingLayerSpacingTableParallel(LefLayerRouting &route,  const lefiSpacingTable *v)
     {
         const lefiParallel *para = v->parallel();
         SpacingTable temp = SpacingTable();
@@ -584,13 +585,13 @@
         route.spacingTableArray.emplace_back(temp);
     }
 
-    IndexType LefReader::parseMastersliceLayer(const lefiLayer &v)
+    IndexType LefReader::parseMastersliceLayer(lefiLayer &v)
     {
         LefLayerMasterslice masterslice = LefLayerMasterslice();
 
         masterslice.name = v.name();
-        IndexType masterIdx = _techDB.mastersliceLayers().size();
-        _techDB.mastersliceLayers().emplace_back(masterslice);
+        IndexType masterIdx = _db.mastersliceLayers().size();
+        _db.mastersliceLayers().emplace_back(masterslice);
         return masterIdx;
     }
 
@@ -612,7 +613,7 @@
         }
 
         /// bottom, cut, top
-        AssertMsg(v.numLayers() == 3, "%s: VIA %s does not exactly have three layers, which is the default assumption. Instead, having %d \n", __FUNCTION__, v.name(), v.numLayers());
+        //AssertMsg(v.numLayers() == 3, "%s: VIA %s does not exactly have three layers, which is the default assumption. Instead, having %d \n", __FUNCTION__, v.name(), v.numLayers());
 
         RealType xLo = 0;
         RealType yLo = 0;
@@ -621,8 +622,8 @@
 
         /// Bottom
         via.bottomLayer = v.layerName(0);
-        AssertMsg(v.numRects(0) == 1, "%s: VIA %s bottom layer does not have exactly one rectangle! \n", __FUNCTION__, v.name());
-        AssertMsg(v.numPolygons(0) == 0, "%s, VIA %s bottom layer has polygons! \n", __FUNCTION__, v.name());
+        //AssertMsg(v.numRects(0) == 1, "%s: VIA %s bottom layer does not have exactly one rectangle! \n", __FUNCTION__, v.name());
+        //AssertMsg(v.numPolygons(0) == 0, "%s, VIA %s bottom layer has polygons! \n", __FUNCTION__, v.name());
         xLo = v.xl(0, 0);
         yLo = v.yl(0, 0);
         xHi = v.xh(0, 0);
@@ -635,8 +636,8 @@
 
         /// CUT
         via.cutLayer = v.layerName(1);
-        AssertMsg(v.numRects(1) > 0, "%s: VIA %s cut layer does not have rectangle! \n", __FUNCTION__, v.name());
-        AssertMsg(v.numPolygons(1) == 0, "%s, VIA %s cut layer has polygons! \n", __FUNCTION__, v.name());
+        //ssertMsg(v.numRects(1) > 0, "%s: VIA %s cut layer does not have rectangle! \n", __FUNCTION__, v.name());
+        //AssertMsg(v.numPolygons(1) == 0, "%s, VIA %s cut layer has polygons! \n", __FUNCTION__, v.name());
         IntType numCut = v.numRects(1);
         via.numCutRect = static_cast<IndexType>(numCut);
         via.cutLayerRectArray.resize(0);
@@ -650,16 +651,16 @@
             cutLayerRect temp = cutLayerRect();
             temp.rect[0] = xLo;
             temp.rect[1] = yLo;
-            temp.rect[2] = xLi;
-            temp.rect[3] = yLi;
+            temp.rect[2] = xHi;
+            temp.rect[3] = yHi;
             via.cutLayerRectArray.emplace_back(temp);
             //via.cutLayerRectArray.emplace_back(Box<RealType>(xLo, yLo, xHi, yHi));
         }
 
         /// top
         via.topLayer = v.layerName(2);
-        AssertMsg(v.numRects(2) == 1, "%s: VIA %s top layer does not have exactly one rectangle! \n", __FUNCTION__, v.name());
-        AssertMsg(v.numPolygons(2) == 0, "%s, VIA %s top layer has polygons! \n", __FUNCTION__, v.name());
+        //AssertMsg(v.numRects(2) == 1, "%s: VIA %s top layer does not have exactly one rectangle! \n", __FUNCTION__, v.name());
+        //AssertMsg(v.numPolygons(2) == 0, "%s, VIA %s top layer has polygons! \n", __FUNCTION__, v.name());
         xLo = v.xl(2, 0);
         yLo = v.yl(2, 0);
         xHi = v.xh(2, 0);

@@ -6,8 +6,8 @@
 
 int main(){
 
-  string def_file = "/home/cadmium/CAD_project/parser/src/main/ispd18_sample.input.def";
-  string lef_file = "/home/cadmium/CAD_project/parser/src/main/ispd18_sample.input.lef";
+  string def_file = "../benchmark/def/ispd18_sample.input.def";
+  string lef_file = "../benchmark/lef/ispd18_sample.input.lef";
 
 
   RawDataBase* db = new RawDataBase();

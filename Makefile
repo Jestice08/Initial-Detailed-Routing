@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -122,6 +125,33 @@ ARouter: cmake_check_build_system
 ARouter/fast:
 	$(MAKE) -f CMakeFiles/ARouter.dir/build.make CMakeFiles/ARouter.dir/build
 .PHONY : ARouter/fast
+
+src/db/lefiLayer.o: src/db/lefiLayer.cpp.o
+
+.PHONY : src/db/lefiLayer.o
+
+# target to build an object file
+src/db/lefiLayer.cpp.o:
+	$(MAKE) -f CMakeFiles/ARouter.dir/build.make CMakeFiles/ARouter.dir/src/db/lefiLayer.cpp.o
+.PHONY : src/db/lefiLayer.cpp.o
+
+src/db/lefiLayer.i: src/db/lefiLayer.cpp.i
+
+.PHONY : src/db/lefiLayer.i
+
+# target to preprocess a source file
+src/db/lefiLayer.cpp.i:
+	$(MAKE) -f CMakeFiles/ARouter.dir/build.make CMakeFiles/ARouter.dir/src/db/lefiLayer.cpp.i
+.PHONY : src/db/lefiLayer.cpp.i
+
+src/db/lefiLayer.s: src/db/lefiLayer.cpp.s
+
+.PHONY : src/db/lefiLayer.s
+
+# target to generate assembly for a file
+src/db/lefiLayer.cpp.s:
+	$(MAKE) -f CMakeFiles/ARouter.dir/build.make CMakeFiles/ARouter.dir/src/db/lefiLayer.cpp.s
+.PHONY : src/db/lefiLayer.cpp.s
 
 src/main/main.o: src/main/main.cpp.o
 
@@ -348,6 +378,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ARouter"
 	@echo "... edit_cache"
+	@echo "... src/db/lefiLayer.o"
+	@echo "... src/db/lefiLayer.i"
+	@echo "... src/db/lefiLayer.s"
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"

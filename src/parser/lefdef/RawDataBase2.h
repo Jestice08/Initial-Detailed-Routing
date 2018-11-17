@@ -102,6 +102,11 @@ public:
     double width;
     double spacing;
 };
+class LefLayerMasterslice
+{
+public:
+	std::string name;
+};
 
 class LefLayerRouting
 {
@@ -136,6 +141,10 @@ public:
     vector<double> addSpacingArray(){
       return spacing;
     }
+
+    void setnumSpacingTable(const int numSpacingTable){
+    this->numSpacingTable = numSpacingTable;
+  	}
 };
 
 class LefLayerOverlap
@@ -185,6 +194,7 @@ public:
   vector<LefLayerRouting> routingLayersArray;
   vector<LefLayerOverlap> overlapLayersArray;
   vector<LefRawFixedVia> fixedViaArray;
+  vector<LefLayerMasterslice> masterSliceArray;
 
   void setLefSiteSizeX(double sizeX){
     siteSizeX = sizeX;
@@ -249,4 +259,9 @@ public:
   vector<LefRawFixedVia> fixedVias() {
     return fixedViaArray;
   }
+
+  vector<LefLayerMasterslice> mastersliceLayers(){
+  	return masterSliceArray;
+  }
+
 };
