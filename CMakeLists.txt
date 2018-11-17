@@ -3,7 +3,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON )
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 set(CMAKE_CXX_STANDARD 14)
-set(PROJECT_NAME "ARouter")
+set(PROJECT_NAME "InitialDetailedRouter")
 project(${PROJECT_NAME})
 
 
@@ -26,14 +26,14 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src
                     )
                 #$ENV{LEMON_INC}
                 #link_directories(${BOOST_LIBRARYDIR})
-                
+
 file(GLOB SOURCES src/main/*.cpp
                   src/global/*.h    src/global/*.cpp
                   src/db/*.h        src/db/*.cpp
                   src/db/drDB/*.h   src/db/drDB/*.cpp
                   src/db/macroDB/*.h src/db/macroDB/*.cpp
                   src/db/techDB/*.h src/db/techDB/*.cpp
-                  src/util/*.h      src/util/*.cpp 
+                  src/util/*.h      src/util/*.cpp
                   src/parser/*.h    src/parser/*.cpp
                   src/gr/*.h        src/gr/*.cpp
                   src/dr/*.h        src/dr/*.cpp
@@ -63,7 +63,7 @@ ENDIF()
 #set(CMAKE_CXX_FLAGS "-std=c++14 -Wall -march=native -fopenmp ")
 set(CMAKE_CXX_FLAGS "-std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -fno-inline ")
-set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -frename-registers -fprofile-use -fprofile-correction") 
+set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -frename-registers -fprofile-use -fprofile-correction")
 set(CMAKE_CXX_FLAGS_PROFILE "-Ofast -pg -Winline")
 set(CMAKE_EXE_LINKER_FLAGS "-pthread")
 
@@ -72,10 +72,10 @@ message(status "** Boost Include: ${Boost_INCLUDE_DIR}")
 message(status "** Boost Libraries: ${Boost_LIBRARY_DIRS}")
 message(status "** Boost Libraries: ${Boost_LIBRARIES}")
 
-add_executable(ARouter ${SOURCES})
+add_executable(InitialDetailedRouter ${SOURCES})
 
 #link static libraries
-target_link_libraries(ARouter 
+target_link_libraries(InitialDetailedRouter
                         ${LEFDEF_LIB})
 
 message(status "** link lefdef libs: ${LEFDEF_LIB}")

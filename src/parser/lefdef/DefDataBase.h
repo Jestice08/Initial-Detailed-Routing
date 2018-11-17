@@ -14,8 +14,8 @@
 #include <fstream>
 #include <sstream>
 #include <cassert>
-#include "../../../include/thirdparty/lefdef/def/include/defrReader.hpp"
-#include "../../../include/thirdparty/lefdef/def/include/defiAlias.hpp"
+#include "../../db/defrReader.hpp"
+#include "../../db/defiAlias.hpp"
 
 /// namespace for DefParser
 namespace DefParser {

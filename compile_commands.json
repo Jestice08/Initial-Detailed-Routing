@@ -1,47 +1,47 @@
 [
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/db/lefiLayer.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/db/lefiLayer.cpp",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/db/lefiLayer.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/db/lefiLayer.cpp",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/db/lefiLayer.cpp"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/main/main.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/DefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDataBase.cc",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDataBase.cc",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDataBase.cc"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/DefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDriver.cc",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDriver.cc",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDriver.cc"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/DefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/LefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.cc",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.cc",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.cc"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/LefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/parser/lefdef/LefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp"
 },
 {
   "directory": "/home/yi/Utexas/CAD/mycode/CAD",
-  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/ARouter.dir/src/util/MsgPrinter.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/util/MsgPrinter.cpp",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/util/MsgPrinter.cpp",
   "file": "/home/yi/Utexas/CAD/mycode/CAD/src/util/MsgPrinter.cpp"
 }
 ]
