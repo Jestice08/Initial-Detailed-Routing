@@ -63,9 +63,11 @@ public:
   vector <Panel> panelArray;
   std::string layerName;
   double unitWidth;
-  vector <Grid> congestionGridarray;
+  vector <Grid> congestionGridArray;
   void addPanelArray(Panel panel)
   {
     panelArray.push_back(panel);
   }
 };
+
+vector <Layer> layerArray;
