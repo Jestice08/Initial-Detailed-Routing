@@ -281,7 +281,7 @@
                                 v.port(portIndex)->getRect(geoIndex)->yl,
                                 v.port(portIndex)->getRect(geoIndex)->xh,
                                 v.port(portIndex)->getRect(geoIndex)->yh,
-								v.name()
+								                v.name()
                         );
                         //_db.getStdCellLib(currentMacroName).addPinName(v.name());
                     }
