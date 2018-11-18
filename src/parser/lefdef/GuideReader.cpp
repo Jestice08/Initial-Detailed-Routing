@@ -44,7 +44,6 @@ void readGuide(std::string const &fileName, GuideDataBase &gdb)
       temp2.netName = netName;
       vector <char> separate;
       vector <double> location;
-      std::string location_char = "";
       separate.clear();
       location.clear();
       for (j=0; j<256; j++)
@@ -56,6 +55,7 @@ void readGuide(std::string const &fileName, GuideDataBase &gdb)
 
         else if ((bufferArray[idx].line[j]==' '))
         {
+          std::string location_char = "";
           int charsize = separate.size();
           for (int i = 0; i < charsize; ++i)
           {

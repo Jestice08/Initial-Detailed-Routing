@@ -450,6 +450,22 @@ string
 iostream
 -
 
+/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp
+stdlib.h
+-
+iostream
+-
+GuideReader.h
+/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.h
+string
+-
+vector
+-
+fstream
+-
+cstdlib
+-
+
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.h
 GuideDatabase.h
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideDatabase.h

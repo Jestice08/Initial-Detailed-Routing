@@ -27,4 +27,14 @@ int main(){
   printf("row name: %d\n",db->getRowArray()[0].step[0]); //test
   printf("macro name: %f\n",macro_db->siteSizeX); //test
 
+  int guidesize = gdb->getOriginalGuide().size();
+  for (int i = 0; i < guidesize; ++i)
+  {
+    cout << gdb->getOriginalGuide()[i].netName << endl;
+    cout << gdb->getOriginalGuide()[i].layerName << endl;
+    cout << "x1 = " << gdb->getOriginalGuide()[i].x1 << " y1 = " << gdb->getOriginalGuide()[i].y1 << endl;
+    cout << "x2 = " << gdb->getOriginalGuide()[i].x2 << " y2 = " << gdb->getOriginalGuide()[i].y2 << endl;
+    cout << endl;
+  }
+
 }
