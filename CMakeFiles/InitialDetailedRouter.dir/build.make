@@ -125,9 +125,22 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.s
 
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: src/parser/lefdef/GuideReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp > CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.s
+
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: src/parser/lefdef/LefDataBase.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.cc
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.i: cmake_force
@@ -140,7 +153,7 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.s: cmake_f
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o: src/parser/lefdef/LefDriver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.i: cmake_force
@@ -153,7 +166,7 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.s: cmake_for
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o: src/parser/lefdef/LefReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.i: cmake_force
@@ -166,7 +179,7 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.s: cmake_fo
 
 CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o: src/util/MsgPrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/util/MsgPrinter.cpp
 
 CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.i: cmake_force
@@ -184,6 +197,7 @@ InitialDetailedRouter_OBJECTS = \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o" \
@@ -197,6 +211,7 @@ bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/main/main.cp
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o
@@ -211,7 +226,7 @@ bin/InitialDetailedRouter: lib/libdefzlib.a
 bin/InitialDetailedRouter: lib/liblef.a
 bin/InitialDetailedRouter: lib/liblefzlib.a
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/InitialDetailedRouter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bin/InitialDetailedRouter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/InitialDetailedRouter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

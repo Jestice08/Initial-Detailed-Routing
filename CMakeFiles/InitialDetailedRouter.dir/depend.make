@@ -76,6 +76,8 @@ CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/main/main.cpp
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/DefDataBase.h
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/DefDriver.h
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/DefReader.h
+CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/GuideDatabase.h
+CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/GuideReader.h
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/LefDataBase.h
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/LefDriver.h
 CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/parser/lefdef/LefReader.h
@@ -185,6 +187,10 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: src/pars
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: src/parser/lefdef/DefReader.cpp
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: src/parser/lefdef/DefReader.h
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: src/parser/lefdef/RawDataBase.h
+
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: src/parser/lefdef/GuideDatabase.h
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: src/parser/lefdef/GuideReader.cpp
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: src/parser/lefdef/GuideReader.h
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: src/db/lefiArray.hpp
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: src/db/lefiCrossTalk.hpp
