@@ -24,9 +24,11 @@ int main(){
   readLef(lef_file, *macro_db);
   readGuide(guide_file, *gdb);
 
-  printf("row name: %d\n",db->getRowArray()[0].step[0]); //test
-  printf("macro name: %f\n",macro_db->siteSizeX); //test
+  //printf("row name: %d\n",db->getRowArray()[0].step[0]); //test
+  //printf("macro name: %f\n",macro_db->siteSizeX); //test
 
+  //test
+  /*
   int guidesize = gdb->getOriginalGuide().size();
   for (int i = 0; i < guidesize; ++i)
   {
@@ -35,6 +37,6 @@ int main(){
     cout << "x1 = " << gdb->getOriginalGuide()[i].x1 << " y1 = " << gdb->getOriginalGuide()[i].y1 << endl;
     cout << "x2 = " << gdb->getOriginalGuide()[i].x2 << " y2 = " << gdb->getOriginalGuide()[i].y2 << endl;
     cout << endl;
-  }
+  }*/
 
 }

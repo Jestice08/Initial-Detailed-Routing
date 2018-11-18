@@ -90,5 +90,5 @@ void readGuide(std::string const &fileName, GuideDataBase &gdb)
       //cout<<bufferArray[idx].line[j]<<endl;
   }
   cout << "Guide File stored ..." << endl;
-  cout << "Guide number is :" << gdb.getOriginalGuide().size() << endl;
+  //cout << "Guide number is :" << gdb.getOriginalGuide().size() << endl;
 }

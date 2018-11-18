@@ -765,7 +765,9 @@
 */
 
     void readLef(std::string const &fileName, MacroDataBase &db) {
+        cout << "Reading LEF File ..." << endl;
         LefReader reader = LefReader(db);
         LefParser::read(reader, fileName.c_str());
+        cout << "LEF File stored ..." << endl;
         //db =reader.getDb();
     }

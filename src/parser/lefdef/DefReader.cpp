@@ -148,8 +148,10 @@
     }
 
     void readDef(std::string const &fileName, RawDataBase &db) {
+        cout << "Reading DEF File ..." << endl;
         DefReader reader = DefReader(db);
         DefParser::read(reader, fileName.c_str());
+        cout << "DEF File stored ..." << endl;
         //db = reader.getRawDb();
         /// Sort region array and set Index
         /*std::sort(db.getRegionArray().begin(), db.getRegionArray().end());
