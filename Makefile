@@ -261,6 +261,33 @@ src/parser/lefdef/DefReader.cpp.s:
 	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.s
 .PHONY : src/parser/lefdef/DefReader.cpp.s
 
+src/parser/lefdef/GuideReader.o: src/parser/lefdef/GuideReader.cpp.o
+
+.PHONY : src/parser/lefdef/GuideReader.o
+
+# target to build an object file
+src/parser/lefdef/GuideReader.cpp.o:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o
+.PHONY : src/parser/lefdef/GuideReader.cpp.o
+
+src/parser/lefdef/GuideReader.i: src/parser/lefdef/GuideReader.cpp.i
+
+.PHONY : src/parser/lefdef/GuideReader.i
+
+# target to preprocess a source file
+src/parser/lefdef/GuideReader.cpp.i:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i
+.PHONY : src/parser/lefdef/GuideReader.cpp.i
+
+src/parser/lefdef/GuideReader.s: src/parser/lefdef/GuideReader.cpp.s
+
+.PHONY : src/parser/lefdef/GuideReader.s
+
+# target to generate assembly for a file
+src/parser/lefdef/GuideReader.cpp.s:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.s
+.PHONY : src/parser/lefdef/GuideReader.cpp.s
+
 src/parser/lefdef/LefDataBase.o: src/parser/lefdef/LefDataBase.cc.o
 
 .PHONY : src/parser/lefdef/LefDataBase.o
@@ -393,6 +420,9 @@ help:
 	@echo "... src/parser/lefdef/DefReader.o"
 	@echo "... src/parser/lefdef/DefReader.i"
 	@echo "... src/parser/lefdef/DefReader.s"
+	@echo "... src/parser/lefdef/GuideReader.o"
+	@echo "... src/parser/lefdef/GuideReader.i"
+	@echo "... src/parser/lefdef/GuideReader.s"
 	@echo "... src/parser/lefdef/LefDataBase.o"
 	@echo "... src/parser/lefdef/LefDataBase.i"
 	@echo "... src/parser/lefdef/LefDataBase.s"
