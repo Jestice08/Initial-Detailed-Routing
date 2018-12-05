@@ -78,6 +78,7 @@ void readGuide(std::string const &fileName, GuideDataBase &gdb)
           temp2.y1 = location[1];
           temp2.x2 = location[2];
           temp2.y2 = location[3];
+          temp2.pushed = false;
           gdb.setOriginalGuide(temp2);
           vector <double>().swap(location);
           break;

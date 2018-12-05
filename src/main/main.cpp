@@ -7,6 +7,7 @@
 #include "../parser/lefdef/DefReader.h"
 #include "../parser/lefdef/LefReader.h"
 #include "../parser/lefdef/GuideReader.h"
+#include "../impl/CreateLayer.h"
 
 
 int main(){
@@ -42,5 +43,27 @@ int main(){
     cout << "x2 = " << gdb->getOriginalGuide()[i].x2 << " y2 = " << gdb->getOriginalGuide()[i].y2 << endl;
     cout << endl;
   }*/
+
+  vector <Layer> layerArray;
+  CreateLayer (*gdb, layerArray);
+
+
+  //layer1 panel1 testbench
+  int layersize = layerArray.size();
+  cout << "Layer number: " << layersize << endl;
+  int guidesize = layerArray[0].panelArray[0].guideArray.size();
+  cout << "Layer1 Panel1 guide number is :" << guidesize << endl;
+  for (int i = 0; i<guidesize; i++)
+  {
+   cout << "Guide bottom location:" << layerArray[0].panelArray[0].guideArray[i].bottom << endl; 
+   cout << "Guide top location:" << layerArray[0].panelArray[0].guideArray[i].top << endl; 
+   int netsize = layerArray[0].panelArray[0].guideArray[i].net.size();
+   cout << " Has net:";
+   for (int j = 0; j<netsize; j++)
+   {
+    cout << layerArray[0].panelArray[0].guideArray[i].net[j] << " ";
+   }
+   cout << endl;
+  }
 
 }

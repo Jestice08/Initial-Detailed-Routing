@@ -33,6 +33,7 @@ file(GLOB SOURCES src/main/*.cpp
                   src/db/drDB/*.h   src/db/drDB/*.cpp
                   src/db/macroDB/*.h src/db/macroDB/*.cpp
                   src/db/techDB/*.h src/db/techDB/*.cpp
+                  src/impl/*.h        src/impl/*.cpp
                   src/util/*.h      src/util/*.cpp
                   src/parser/*.h    src/parser/*.cpp
                   src/gr/*.h        src/gr/*.cpp
