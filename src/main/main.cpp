@@ -24,6 +24,10 @@ int main(){
   readLef(lef_file, *macro_db);
   readGuide(guide_file, *gdb);
 
+//  CreateLayer
+
+  //Route(*db,*macro_db, *gdb);
+
   //printf("row name: %d\n",db->getRowArray()[0].step[0]); //test
   //printf("macro name: %f\n",macro_db->siteSizeX); //test
 

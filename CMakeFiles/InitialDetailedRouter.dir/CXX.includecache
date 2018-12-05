@@ -432,10 +432,6 @@ cassert
 DefDataBase.h
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDataBase.h
 
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp
-DefReader.h
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.h
-
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.h
 DefDriver.h
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDriver.h
@@ -452,22 +448,6 @@ vector
 string
 -
 iostream
--
-
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp
-stdlib.h
--
-iostream
--
-GuideReader.h
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.h
-string
--
-vector
--
-fstream
--
-cstdlib
 -
 
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.h
@@ -507,10 +487,6 @@ string
 -
 LefDataBase.h
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.h
-
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp
-LefReader.h
-/home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.h
 
 /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.h
 LefDriver.h

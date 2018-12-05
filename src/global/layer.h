@@ -69,5 +69,3 @@ public:
     panelArray.push_back(panel);
   }
 };
-
-vector <Layer> layerArray;
