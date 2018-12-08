@@ -7,13 +7,14 @@
 #include "../parser/lefdef/DefReader.h"
 #include "../parser/lefdef/LefReader.h"
 #include "../parser/lefdef/GuideReader.h"
+#include "../impl/CreateLayer.h"
 
 
 int main(){
 
-  string def_file = "../benchmark/def/ispd18_sample.input.def";
-  string lef_file = "../benchmark/lef/ispd18_sample.input.lef";
-  string guide_file = "../benchmark/guide/ispd18_sample.input.guide";
+  string def_file = "../benchmark/def/ispd18_test5.input.def";
+  string lef_file = "../benchmark/lef/ispd18_test5.input.lef";
+  string guide_file = "../benchmark/guide/ispd18_test5.input.guide";
 
 
   RawDataBase* db = new RawDataBase();
@@ -23,6 +24,10 @@ int main(){
   readDef(def_file, *db);
   readLef(lef_file, *macro_db);
   readGuide(guide_file, *gdb);
+
+//  CreateLayer
+
+  //Route(*db,*macro_db, *gdb);
 
   //printf("row name: %d\n",db->getRowArray()[0].step[0]); //test
   //printf("macro name: %f\n",macro_db->siteSizeX); //test
@@ -39,4 +44,27 @@ int main(){
     cout << endl;
   }*/
 
+  vector <Layer> layerArray;
+  CreateLayer (*gdb, layerArray);
+
+
+  //layer1 panel1 testbench
+  int layersize = layerArray.size();
+  cout << "Layer number: " << layersize << endl;
+  int guidesize = layerArray[0].panelArray[0].guideArray.size();
+  cout << "Layer1 Panel1 guide number is :" << guidesize << endl;
+  for (int i = 0; i<guidesize; i++)
+  {
+   cout << "Guide bottom location:" << layerArray[0].panelArray[0].guideArray[i].bottom << endl; 
+   cout << "Guide top location:" << layerArray[0].panelArray[0].guideArray[i].top << endl; 
+   int netsize = layerArray[0].panelArray[0].guideArray[i].net.size();
+   cout << " Has net:";
+   for (int j = 0; j<netsize; j++)
+   {
+    cout << layerArray[0].panelArray[0].guideArray[i].net[j] << " ";
+   }
+   cout << endl;
+  }
+
+  return 0;
 }

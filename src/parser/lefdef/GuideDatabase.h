@@ -9,6 +9,7 @@ public:
   double x1,x2,y1,y2;
   std::string layerName;
   std::string netName;
+  bool pushed;
 };
 
 class GuideDataBase

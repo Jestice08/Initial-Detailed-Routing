@@ -1,3 +1,6 @@
+#ifndef _LAYER
+#define _LAYER
+
 #include <vector>
 #include <string>
 #include <iostream>
@@ -70,4 +73,4 @@ public:
   }
 };
 
-vector <Layer> layerArray;
+#endif
