@@ -25,6 +25,7 @@ public:
   vector<DefParser::Snetp> snetpArray;
   vector<DefParser::Group> groupArray;
   vector<DefParser::Via> viaArray;
+  vector<DefParser::Track> trackArray;
 
 
   void setDefUnit(int defUnit){

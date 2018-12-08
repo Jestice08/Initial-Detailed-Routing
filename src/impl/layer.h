@@ -1,3 +1,6 @@
+#ifndef _LAYER
+#define _LAYER
+
 #include <vector>
 #include <string>
 #include <iostream>
@@ -69,3 +72,5 @@ public:
     panelArray.push_back(panel);
   }
 };
+
+#endif

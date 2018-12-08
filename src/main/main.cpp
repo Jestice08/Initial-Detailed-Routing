@@ -12,9 +12,9 @@
 
 int main(){
 
-  string def_file = "../benchmark/def/ispd18_sample.input.def";
-  string lef_file = "../benchmark/lef/ispd18_sample.input.lef";
-  string guide_file = "../benchmark/guide/ispd18_sample.input.guide";
+  string def_file = "../benchmark/def/ispd18_test5.input.def";
+  string lef_file = "../benchmark/lef/ispd18_test5.input.lef";
+  string guide_file = "../benchmark/guide/ispd18_test5.input.guide";
 
 
   RawDataBase* db = new RawDataBase();
@@ -66,4 +66,5 @@ int main(){
    cout << endl;
   }
 
+  return 0;
 }
