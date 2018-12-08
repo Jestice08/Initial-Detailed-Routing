@@ -107,7 +107,7 @@
     }
 
     void DefReader::add_def_track(const DefParser::Track &track) {
-
+        _db.addTrackArray(track);
     }
 
     void DefReader::add_def_snetpath(const DefParser::Snetp &snetp) {

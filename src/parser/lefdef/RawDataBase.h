@@ -96,4 +96,8 @@ public:
     viaArray.push_back(via);
   }
 
+  void addTrackArray(const DefParser::Track &track){
+    trackArray.push_back(track);
+  }
+
 };
