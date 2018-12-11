@@ -1,13 +1,23 @@
+#ifndef _MDB
+#define _MDB
+
 #include <vector>
 #include <string>
 #include <iostream>
 using namespace std;
 
+
+class Recunit
+{
+public:
+  double pinXl,pinYl,pinXh,pinYh;
+};
+
 class Pin
 {
 public:
   string name;
-  double pinX1,pinY1,pinXh,pinYh;
+  vector<Recunit> recArray;
 };
 
 
@@ -22,6 +32,10 @@ public:
   int rightEdge;
 
   vector<Pin> pinArray;
+
+  vector<Pin> getPinArray(){
+      return pinArray;
+  }
 
   void setSizeX(double size){
     sizeX = size;
@@ -55,7 +69,7 @@ public:
     macroName = name;
   }
 
-  void addPin(double x1, double y1, double xh, double yh, std::string name){
+  /*void addPin(double x1, double y1, double xh, double yh, std::string name){
     Pin *p = new Pin();
     p->pinX1 = x1;
     p->pinY1 = y1;
@@ -63,6 +77,17 @@ public:
     p->pinYh = yh;
     p->name = name;
     pinArray.push_back(*p);
+  }*/
+  void addPin(vector<Recunit> &recTemp,std::string name){
+    Pin p = Pin();
+    p.recArray = recTemp;
+    p.name = name;
+        cout << "adding pin ..." << endl;
+      cout << pinArray.size() << endl;
+    pinArray.push_back(p);
+
+    cout << pinArray.size() << endl;
+    //cout << pinArray[0].name << endl;
   }
 
 };
@@ -105,7 +130,7 @@ public:
 class LefLayerMasterslice
 {
 public:
-	std::string name;
+  std::string name;
 };
 
 class LefLayerRouting
@@ -144,7 +169,7 @@ public:
 
     void setnumSpacingTable(const int numSpacingTable){
     this->numSpacingTable = numSpacingTable;
-  	}
+    }
 };
 
 class LefLayerOverlap
@@ -261,7 +286,9 @@ public:
   }
 
   vector<LefLayerMasterslice> mastersliceLayers(){
-  	return masterSliceArray;
+    return masterSliceArray;
   }
 
 };
+
+#endif

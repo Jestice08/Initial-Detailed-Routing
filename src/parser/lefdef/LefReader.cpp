@@ -172,8 +172,25 @@
         assert(v.hasXSymmetry());
         assert(v.hasYSymmetry());
         assert(v.originX() == 0 && v.originY() == 0);
-        _db.getStdCellLib(currentMacroName).setSizeX(v.sizeX());
-        _db.getStdCellLib(currentMacroName).setSizeY(v.sizeY());
+
+                int current_std_size = _db.stdCellArray.size();
+                //cout << _db.stdCellArray.size() << endl;
+                for (int k = 0; k < current_std_size; k++)
+                {
+                    //cout << k << endl;
+                    //cout << v.name() << endl;
+                    if (_db.stdCellArray[k].macroName == currentMacroName)
+                    {
+                        //cout << v.sizeX() << endl;
+                        //cout << v.sizeY() << endl;
+                        _db.stdCellArray[k].sizeX = v.sizeX();
+                        _db.stdCellArray[k].sizeY = v.sizeY();
+                    }
+                }
+
+
+        //_db.getStdCellLib(currentMacroName).setSizeX(v.sizeX());
+        //_db.getStdCellLib(currentMacroName).setSizeY(v.sizeY());
 
         /// Process the string for extracting the edgetype information
         bool left = true;
@@ -274,21 +291,48 @@
         } else {
             for (IndexType portIndex = 0; portIndex < v.numPorts(); ++portIndex) {
                 //lefiGeometries test = *v.port(portIndex);
+                vector <Recunit> RecArray;
                 for (IndexType geoIndex = 0; geoIndex < v.port(portIndex)->numItems(); ++geoIndex) {
                     if (v.port(portIndex)->itemType(geoIndex) == lefiGeomRectE) {
-                        _db.getStdCellLib(currentMacroName).addPin(
+                        /*_db.getStdCellLib(currentMacroName).addPin(
                                 v.port(portIndex)->getRect(geoIndex)->xl,
                                 v.port(portIndex)->getRect(geoIndex)->yl,
                                 v.port(portIndex)->getRect(geoIndex)->xh,
                                 v.port(portIndex)->getRect(geoIndex)->yh,
-								                v.name()
-                        );
+                                v.name()
+                        );*/
+                        Recunit *r = new Recunit();
+                                r->pinXl = v.port(portIndex)->getRect(geoIndex)->xl,
+                                r->pinYl = v.port(portIndex)->getRect(geoIndex)->yl,
+                                r->pinXh = v.port(portIndex)->getRect(geoIndex)->xh,
+                                r->pinYh = v.port(portIndex)->getRect(geoIndex)->yh,
+                                RecArray.push_back(*r);
                         //_db.getStdCellLib(currentMacroName).addPinName(v.name());
                     }
 
 
                 }
-
+                //Pin pin_temp = Pin();
+                //pin_temp.name = v.name();
+                //pin_temp.recArray = RecArray;
+                //_db.getStdCellLib(currentMacroName).pinArray.push_back(pin_temp);
+                //StdCell STDCELL;
+                //cout << "adding..." << endl;
+                int current_std_size = _db.stdCellArray.size();
+                for (int k = 0; k < current_std_size; k++)
+                {
+                    //cout << k << endl;
+                    //cout << v.name() << endl;
+                    if (_db.stdCellArray[k].macroName == currentMacroName)
+                    {
+                        Pin pin_temp = Pin();
+                        pin_temp.name = v.name();
+                        pin_temp.recArray = RecArray;
+                        _db.stdCellArray[k].pinArray.push_back(pin_temp);
+                        //cout <<  _db.stdCellArray[k].pinArray.size() << endl; 
+                    }
+                }
+                 //*(_db.getStdCellLib(currentMacroName))->addPin(RecArray,v.name());
             }
 
         }

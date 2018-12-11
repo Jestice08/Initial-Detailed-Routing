@@ -1916,7 +1916,7 @@ namespace DefParser
                 defDriver->row().reset();
                 break;
             case defrTrackCbkType :
-                /*
+                printf("testing");
                     track = (defiTrack*)cl;
                     if (track->firstTrackMask())
                     {
@@ -1957,8 +1957,8 @@ namespace DefParser
                     //limboPrint(limbo::kNONE, ";\n");
                     defDriver->track().layer.push_back(track->layer(i));
                     defDB->add_def_track(defDriver->track());
-                    defDriver->track().reset();
-                    */
+                    //defDriver->track().reset();
+                    
                 break;
             case defrGcellGridCbkType :
                 gcg = (defiGcellGrid*)cl;

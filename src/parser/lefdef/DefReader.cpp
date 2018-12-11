@@ -99,6 +99,7 @@
     }
 
     void DefReader::add_def_net(const DefParser::Net &net) {
+        //cout << "testing" <<endl;
         _db.addNetArray(net);
     }
 
@@ -107,6 +108,7 @@
     }
 
     void DefReader::add_def_track(const DefParser::Track &track) {
+        cout << "testing" <<endl;
         _db.addTrackArray(track);
     }
 

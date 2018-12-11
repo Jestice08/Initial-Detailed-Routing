@@ -38,7 +38,7 @@ class Grid
 public:
   double xcoordinate;
   double ycoordinate;
-  bool used;
+  int used;
 };
 
 class Panel
@@ -67,6 +67,8 @@ public:
   std::string layerName;
   double unitWidth;
   vector <Grid> congestionGridArray;
+  int xsize;
+  int ysize;
   void addPanelArray(Panel panel)
   {
     panelArray.push_back(panel);
