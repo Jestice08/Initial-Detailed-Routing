@@ -503,43 +503,80 @@ vector<Point> Promote_segment(vector<Layer> &layerarray, int grid[][COL], APC ap
                 }
             }
 
-
-
+    vector<Point> AAA;
+    stack<Pair> tempp_vector; // path goes through
+    vector<Pair> temppp_vector;
 
     int temp_size = 0;
-
+    int break_flag = 0;
+    int src_index;
     for (int k=0; k<vect0.size();k++){
      for (int i = 0; i < vect.size(); i++){
-       for (int j = 0; j < vect[i].size(); j++){
-            if (vect0[k][j] == vect[i][j]){
+       
+        if (layer_index%2) //layer2, 4, 6 ...
+       {
+            if (vect0[k][1] == vect[i][1]){
                 temp_vector.push_back(vect[i]);
-                break;
+                break_flag = 1;
             }
         }
-    }
+        else
+        {
+            if (vect0[k][0] == vect[i][0]){
+                temp_vector.push_back(vect[i]);
+                break_flag = 1;
+            }
+        }
+        }
+        if(break_flag) { src_index = k; break; }
     }
 
     // cout<<"temp_vector is!!!!!!!!!!!!!!!: "<<endl;
     printVector(temp_vector);
-    if (vect0[0][0] == temp_vector[0][0]){
-        sort(temp_vector.begin(),temp_vector.end());
-        // cout<<"yes!!!!"<<endl;
-        printVector(temp_vector);
-    }
 
     temp_size = temp_vector.size();
-
-    stack<Pair> tempp_vector; // path goes through
-
-    Pair src = make_pair(vect0[0][0], vect0[0][1]);
+    Pair src = make_pair(vect0[src_index][0], vect0[src_index][1]);
     Pair dest;
-    if (vect0[0][0] == temp_vector[0][0]){
-        dest = make_pair(temp_vector[0][0], temp_vector[0][1]);
+    int max_index =0;
+    int max_distance = 0;
+    if(layer_index%2)       //layer2 comparing y
+    {
+        for(int i = 0; i < temp_size; i++)
+        {
+            if ((temp_vector[i][0]- vect0[src_index][0])>=max_distance)
+            {
+                max_distance = temp_vector[i][0]- vect0[src_index][0];
+                max_index = i;
+            }
+        }
     }
-    else {
-        dest = make_pair(temp_vector[temp_size-1][0], temp_vector[temp_size-1][1]);
+    else
+    {
+        for(int i = 0; i < temp_size; i++)
+        {
+            if ((temp_vector[i][1]- vect0[src_index][1])>=max_distance)
+            {
+                max_distance = temp_vector[i][1]- vect0[src_index][1];
+                max_index = i;
+            }
+        }
     }
-    vector<Point> AAA;
+
+    dest = make_pair(temp_vector[max_index][0],temp_vector[max_index][1]);
+
+    // if (vect0[0][0] == temp_vector[0][0]){
+    //     sort(temp_vector.begin(),temp_vector.end());
+    //     // cout<<"yes!!!!"<<endl;
+    //     printVector(temp_vector);
+    // }
+
+    // if (vect0[0][0] == temp_vector[0][0]){
+    //     dest = make_pair(temp_vector[0][0], temp_vector[0][1]);
+    // }
+    // else {
+    //     dest = make_pair(temp_vector[temp_size-1][0], temp_vector[temp_size-1][1]);
+    // }
+
 
 
     // int flagg = 0;
@@ -565,7 +602,7 @@ vector<Point> Promote_segment(vector<Layer> &layerarray, int grid[][COL], APC ap
     // {
         aStarSearch(tempp_vector, grid, src, dest);
 
-        vector<Pair> temppp_vector;
+
         while (!tempp_vector.empty())
         {
             temppp_vector.push_back(tempp_vector.top());
@@ -654,6 +691,68 @@ vector<Point> Promote_segment(vector<Layer> &layerarray, int grid[][COL], APC ap
                 // cout << "unit width: " << layerarray[layer_index+1].unitWidth << endl;
                 layerarray[layer_index+1].panelArray[currentPanelIndex].apcArray.push_back(apctemp);
             }
+            // else
+            // {
+            //     cout << "entering else" << endl;
+            //     if ((get<1>(src)==get<1>(dest))&&(get<0>(src)==get<0>(dest)))
+            //     {
+            //         cout << "promote test" << endl;
+            //         if(layer_index % 2) //layer 2, 4, 6 ...
+            //         {
+            //             int current_x_location = get<1>(src);
+            //             //int apc1_size = vect.size();
+            //                         APC apctemp = APC();
+            //                         apctemp.connect = false;
+            //                         apctemp.promote = true;
+            //                         apctemp.net = apc0.net;
+            //             for (int apc1_idx = 0; apc1_idx < vect.size(); apc1_idx++)
+            //             {
+
+            //                         cout << "apc temp .." << endl;
+            //                         cout << vect[apc1_idx][1] << endl;
+            //                 if (vect[apc1_idx][1] == current_x_location)
+            //                 {
+            //                         cout << "apc temp ......" << endl;
+            //                     if (grid[vect[apc1_idx][0]][vect[apc1_idx][1]] == 0)
+            //                     {
+            //                         cout << "apc temp ............." << endl;
+            //                         Point temp = Point();
+            //                         int xtemp = vect[apc1_idx][1];
+            //                         int ytemp = vect[apc1_idx][0];
+            //                         temp.xCoordinate = (double) ((double)(xtemp) * stepxx + layer2start);
+            //                         temp.yCoordinate = (double) ((double)(ytemp) * stepyy + layer1start);
+            //                         AAA.push_back(temp);
+            //                         AP ap_temp = AP();
+            //                         ap_temp.xCoordinate = (double) temp.xCoordinate;
+            //                         ap_temp.yCoordinate = (double) temp.yCoordinate;
+            //                         apctemp.aps.push_back(ap_temp);
+            //                     }
+            //                 }
+
+            //             }
+            //                 double panelstart;
+            //                 int direction;
+            //                 panelstart = layerarray[layer_index+1].panelArray[0].left;
+            //                 direction = (layer_index + 1) % 2;
+
+            //                 int currentPanelIndex;
+            //                 if(direction == 0)
+            //                 {
+            //                     currentPanelIndex = (int) (apctemp.aps[0].yCoordinate - panelstart) / (int) layerarray[layer_index+1].unitWidth;
+            //                 }
+            //                 else
+            //                 {
+            //                     currentPanelIndex = (int) (apctemp.aps[0].xCoordinate - panelstart) / (int) layerarray[layer_index+1].unitWidth;
+            //                 }
+            //                 //cout << currentPanelIndex << endl;
+            //                 // cout << "first point: " << apctemp.aps[0].yCoordinate << endl;
+            //                 // cout << "panel start: " << panelstart << endl;
+            //                 // cout << "unit width: " << layerarray[layer_index+1].unitWidth << endl;
+            //                 layerarray[layer_index+1].panelArray[currentPanelIndex].apcArray.push_back(apctemp);
+            //         }
+            //         cout << "end promote" << endl;
+            //     }
+            // }
         }
 
         //save via
