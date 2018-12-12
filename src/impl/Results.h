@@ -1,3 +1,6 @@
+#ifndef _RESULT
+#define _RESULT
+
 #include <vector>
 #include <string>
 #include <iostream>
@@ -24,8 +27,7 @@ public:
   string layerName;
   string net;
   vector <Point> pointArray;
-  vector <Point> terminalArray; //stores points for promotion
+  //vector <Point> terminalArray; //stores points for promotion
 };
 
-vector <ViaResult> viaResultArray;
-vector <SegmentResult> segmentResultArray;
+#endif

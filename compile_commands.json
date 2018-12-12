@@ -5,6 +5,7 @@
   "file": "/home/nqyang/routing/CAD/src/main/main.cpp"
 },
 {
+<<<<<<< HEAD
   "directory": "/home/nqyang/routing/CAD",
   "command": "/usr/bin/c++   -I/home/nqyang/routing/CAD/src -I/home/nqyang/routing/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/db/lefiLayer.cpp.o -c /home/nqyang/routing/CAD/src/db/lefiLayer.cpp",
   "file": "/home/nqyang/routing/CAD/src/db/lefiLayer.cpp"
@@ -13,6 +14,46 @@
   "directory": "/home/nqyang/routing/CAD",
   "command": "/usr/bin/c++   -I/home/nqyang/routing/CAD/src -I/home/nqyang/routing/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o -c /home/nqyang/routing/CAD/src/impl/CreateApcs.cpp",
   "file": "/home/nqyang/routing/CAD/src/impl/CreateApcs.cpp"
+=======
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateApcs.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateApcs.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateGrid.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateGrid.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateLayer.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateLayer.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/PinAccess.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/PinAccess.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/Route.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/Route.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/overlap.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/impl/overlap.cpp"
+},
+{
+  "directory": "/home/yi/Utexas/CAD/mycode/CAD",
+  "command": "/usr/bin/c++   -I/home/yi/Utexas/CAD/mycode/CAD/src -I/home/yi/Utexas/CAD/mycode/CAD/include  -std=c++14 -Wall -march=native -fopenmp -fext-numeric-literals   -std=gnu++14 -o CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp",
+  "file": "/home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp"
+>>>>>>> yizheng
 },
 {
   "directory": "/home/nqyang/routing/CAD",

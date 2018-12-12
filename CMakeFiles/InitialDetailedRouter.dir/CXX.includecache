@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/nqyang/routing/CAD/src/db/defiAlias.hpp
 defiKRDefs.hpp
 /home/nqyang/routing/CAD/src/db/defiKRDefs.hpp
@@ -591,12 +592,24 @@ iostream
 -
 string
 -
+=======
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp
+AStarSearch.h
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.h
+
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.h
+Results.h
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/Results.h
+layer.h
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/layer.h
+iostream
+-
+>>>>>>> yizheng
 vector
 -
-fstream
+bits/stdc++.h
 -
-cstdlib
--
+<<<<<<< HEAD
 ../parser/lefdef/DefReader.h
 /home/nqyang/routing/CAD/src/parser/lefdef/DefReader.h
 ../parser/lefdef/LefReader.h
@@ -669,6 +682,10 @@ DefReader.h
 /home/nqyang/routing/CAD/src/parser/lefdef/DefReader.h
 
 /home/nqyang/routing/CAD/src/parser/lefdef/GuideDatabase.h
+=======
+
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/Results.h
+>>>>>>> yizheng
 vector
 -
 string
@@ -676,6 +693,7 @@ string
 iostream
 -
 
+<<<<<<< HEAD
 /home/nqyang/routing/CAD/src/parser/lefdef/GuideReader.cpp
 stdlib.h
 -
@@ -773,6 +791,9 @@ iostream
 -
 
 /home/nqyang/routing/CAD/src/parser/lefdef/RawDataBase2.h
+=======
+/home/yi/Utexas/CAD/mycode/CAD/src/impl/layer.h
+>>>>>>> yizheng
 vector
 -
 string

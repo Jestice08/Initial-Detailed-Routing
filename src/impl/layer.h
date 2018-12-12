@@ -69,6 +69,8 @@ public:
   int xsize;
   int ysize;
   vector <Grid> congestionGridArray;
+  int xsize;
+  int ysize;
   void addPanelArray(Panel panel)
   {
     panelArray.push_back(panel);

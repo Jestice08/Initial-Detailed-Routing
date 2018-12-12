@@ -35,11 +35,7 @@ vector<AP>  CreateApcs(Guide &guideLow, Guide &guideHigh,Panel &panelLow, Panel&
     xstart=x1;
   }
   else{
-<<<<<<< HEAD
-    xstart=startx+(int)((x1-startx)/stepx+1)*stepx;  //replace stepx to 380
-=======
     xstart=startx+(int)(((x1-startx)/stepx+1))*stepx;  //replace stepx to 380
->>>>>>> yizheng
     cout << "xstart=" << xstart << endl;
     cout << "(x1-startx)/stepx=" << (int) ((x1-startx)/stepx) << endl;
   }
@@ -51,11 +47,7 @@ vector<AP>  CreateApcs(Guide &guideLow, Guide &guideHigh,Panel &panelLow, Panel&
     ystart=y1;
   }
   else{
-<<<<<<< HEAD
-    ystart=starty+(int)((y1-starty)/stepy+1)*stepy;
-=======
     ystart=starty+(int)(((y1-starty)/stepy+1))*stepy;
->>>>>>> yizheng
   }
   cout << "ystart=" << ystart << endl;
   for(double i = xstart; i<x2; i=i+stepx){

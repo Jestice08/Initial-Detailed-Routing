@@ -1,7 +1,10 @@
 #ifndef _RDB
 #define _RDB
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> yizheng
 #include <vector>
 #include <string>
 #include <iostream>
@@ -100,5 +103,13 @@ public:
     viaArray.push_back(via);
   }
 
+  void addTrackArray(const DefParser::Track &track){
+    trackArray.push_back(track);
+  }
+
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> yizheng
 #endif

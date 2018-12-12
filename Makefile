@@ -153,6 +153,36 @@ src/db/lefiLayer.cpp.s:
 	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/db/lefiLayer.cpp.s
 .PHONY : src/db/lefiLayer.cpp.s
 
+<<<<<<< HEAD
+=======
+src/impl/AStarSearch.o: src/impl/AStarSearch.cpp.o
+
+.PHONY : src/impl/AStarSearch.o
+
+# target to build an object file
+src/impl/AStarSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o
+.PHONY : src/impl/AStarSearch.cpp.o
+
+src/impl/AStarSearch.i: src/impl/AStarSearch.cpp.i
+
+.PHONY : src/impl/AStarSearch.i
+
+# target to preprocess a source file
+src/impl/AStarSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.i
+.PHONY : src/impl/AStarSearch.cpp.i
+
+src/impl/AStarSearch.s: src/impl/AStarSearch.cpp.s
+
+.PHONY : src/impl/AStarSearch.s
+
+# target to generate assembly for a file
+src/impl/AStarSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.s
+.PHONY : src/impl/AStarSearch.cpp.s
+
+>>>>>>> yizheng
 src/impl/CreateApcs.o: src/impl/CreateApcs.cpp.o
 
 .PHONY : src/impl/CreateApcs.o
@@ -234,6 +264,63 @@ src/impl/CreateLayer.cpp.s:
 	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.s
 .PHONY : src/impl/CreateLayer.cpp.s
 
+<<<<<<< HEAD
+=======
+src/impl/PinAccess.o: src/impl/PinAccess.cpp.o
+
+.PHONY : src/impl/PinAccess.o
+
+# target to build an object file
+src/impl/PinAccess.cpp.o:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o
+.PHONY : src/impl/PinAccess.cpp.o
+
+src/impl/PinAccess.i: src/impl/PinAccess.cpp.i
+
+.PHONY : src/impl/PinAccess.i
+
+# target to preprocess a source file
+src/impl/PinAccess.cpp.i:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.i
+.PHONY : src/impl/PinAccess.cpp.i
+
+src/impl/PinAccess.s: src/impl/PinAccess.cpp.s
+
+.PHONY : src/impl/PinAccess.s
+
+# target to generate assembly for a file
+src/impl/PinAccess.cpp.s:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.s
+.PHONY : src/impl/PinAccess.cpp.s
+
+src/impl/Route.o: src/impl/Route.cpp.o
+
+.PHONY : src/impl/Route.o
+
+# target to build an object file
+src/impl/Route.cpp.o:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o
+.PHONY : src/impl/Route.cpp.o
+
+src/impl/Route.i: src/impl/Route.cpp.i
+
+.PHONY : src/impl/Route.i
+
+# target to preprocess a source file
+src/impl/Route.cpp.i:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.i
+.PHONY : src/impl/Route.cpp.i
+
+src/impl/Route.s: src/impl/Route.cpp.s
+
+.PHONY : src/impl/Route.s
+
+# target to generate assembly for a file
+src/impl/Route.cpp.s:
+	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.s
+.PHONY : src/impl/Route.cpp.s
+
+>>>>>>> yizheng
 src/impl/overlap.o: src/impl/overlap.cpp.o
 
 .PHONY : src/impl/overlap.o
@@ -516,6 +603,12 @@ help:
 	@echo "... src/db/lefiLayer.o"
 	@echo "... src/db/lefiLayer.i"
 	@echo "... src/db/lefiLayer.s"
+<<<<<<< HEAD
+=======
+	@echo "... src/impl/AStarSearch.o"
+	@echo "... src/impl/AStarSearch.i"
+	@echo "... src/impl/AStarSearch.s"
+>>>>>>> yizheng
 	@echo "... src/impl/CreateApcs.o"
 	@echo "... src/impl/CreateApcs.i"
 	@echo "... src/impl/CreateApcs.s"
@@ -525,6 +618,15 @@ help:
 	@echo "... src/impl/CreateLayer.o"
 	@echo "... src/impl/CreateLayer.i"
 	@echo "... src/impl/CreateLayer.s"
+<<<<<<< HEAD
+=======
+	@echo "... src/impl/PinAccess.o"
+	@echo "... src/impl/PinAccess.i"
+	@echo "... src/impl/PinAccess.s"
+	@echo "... src/impl/Route.o"
+	@echo "... src/impl/Route.i"
+	@echo "... src/impl/Route.s"
+>>>>>>> yizheng
 	@echo "... src/impl/overlap.o"
 	@echo "... src/impl/overlap.i"
 	@echo "... src/impl/overlap.s"

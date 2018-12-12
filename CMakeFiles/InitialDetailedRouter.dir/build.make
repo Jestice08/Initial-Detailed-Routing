@@ -156,10 +156,54 @@ CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o.provides: CMakeFi
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o.provides.build: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o
 
 
+CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o: src/impl/AStarSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/AStarSearch.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o: src/impl/CreateApcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateApcs.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateApcs.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateApcs.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o: src/impl/CreateGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateGrid.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateGrid.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateGrid.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.s
+
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o: src/impl/CreateLayer.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o -c /home/nqyang/routing/CAD/src/impl/CreateLayer.cpp
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/CreateLayer.cpp
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.i"
@@ -169,7 +213,53 @@ CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nqyang/routing/CAD/src/impl/CreateLayer.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.s
 
+<<<<<<< HEAD
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.requires:
+=======
+CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o: src/impl/PinAccess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/PinAccess.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/PinAccess.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/PinAccess.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o: src/impl/Route.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/Route.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/Route.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/Route.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o: src/impl/overlap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/impl/overlap.cpp
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yi/Utexas/CAD/mycode/CAD/src/impl/overlap.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i
+
+CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/impl/overlap.cpp -o CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o: src/main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/main/main.cpp
+>>>>>>> yizheng
 
 .PHONY : CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.requires
 
@@ -177,7 +267,14 @@ CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.provides: CMakeF
 	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.provides.build
 .PHONY : CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.provides
 
+<<<<<<< HEAD
 CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o.provides.build: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o
+=======
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o: src/parser/lefdef/DefDataBase.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDataBase.cc
+>>>>>>> yizheng
 
 
 CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
@@ -185,9 +282,16 @@ CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o: src/impl/overlap.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o -c /home/nqyang/routing/CAD/src/impl/overlap.cpp
 
+<<<<<<< HEAD
 CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nqyang/routing/CAD/src/impl/overlap.cpp > CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.i
+=======
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o: src/parser/lefdef/DefDriver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefDriver.cc
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.s"
@@ -230,8 +334,13 @@ CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o.provides.build: C
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o: src/parser/lefdef/DefReader.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o -c /home/nqyang/routing/CAD/src/parser/lefdef/DefReader.cpp
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/DefReader.cpp
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.i"
@@ -254,8 +363,13 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o.provides.
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o: src/parser/lefdef/GuideReader.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o -c /home/nqyang/routing/CAD/src/parser/lefdef/GuideReader.cpp
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/GuideReader.cpp
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.i"
@@ -350,8 +464,13 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o.provides.b
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o: src/parser/lefdef/LefDataBase.cc
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o -c /home/nqyang/routing/CAD/src/parser/lefdef/LefDataBase.cc
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDataBase.cc
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.i"
@@ -374,8 +493,13 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDataBase.cc.o.provides
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o: src/parser/lefdef/LefDriver.cc
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o -c /home/nqyang/routing/CAD/src/parser/lefdef/LefDriver.cc
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.i"
@@ -383,15 +507,31 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.i: cmake_for
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.s"
+<<<<<<< HEAD
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nqyang/routing/CAD/src/parser/lefdef/LefDriver.cc -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.s
+=======
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefDriver.cc -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.s
+
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o: src/parser/lefdef/LefReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/parser/lefdef/LefReader.cpp
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.requires:
 
 .PHONY : CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.requires
 
+<<<<<<< HEAD
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.provides: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.requires
 	$(MAKE) -f CMakeFiles/InitialDetailedRouter.dir/build.make CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.provides.build
 .PHONY : CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.provides
+=======
+CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o: CMakeFiles/InitialDetailedRouter.dir/flags.make
+CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o: src/util/MsgPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o -c /home/yi/Utexas/CAD/mycode/CAD/src/util/MsgPrinter.cpp
+>>>>>>> yizheng
 
 CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.provides.build: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o
 
@@ -400,11 +540,24 @@ CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefDriver.cc.o.provides.b
 InitialDetailedRouter_OBJECTS = \
 "CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/db/lefiLayer.cpp.o" \
+<<<<<<< HEAD
 "CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o" \
+=======
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o" \
+"CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o" \
+>>>>>>> yizheng
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o" \
 "CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o" \
@@ -418,11 +571,24 @@ InitialDetailedRouter_EXTERNAL_OBJECTS =
 
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/db/lefiLayer.cpp.o
+<<<<<<< HEAD
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/util/MsgPrinter.cpp.o
+=======
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/AStarSearch.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateApcs.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateGrid.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/CreateLayer.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/PinAccess.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/Route.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/impl/overlap.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/main/main.cpp.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDataBase.cc.o
+bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefDriver.cc.o
+>>>>>>> yizheng
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/DefReader.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/GuideReader.cpp.o
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/src/parser/lefdef/LefReader.cpp.o
@@ -440,7 +606,11 @@ bin/InitialDetailedRouter: lib/libdefzlib.a
 bin/InitialDetailedRouter: lib/liblef.a
 bin/InitialDetailedRouter: lib/liblefzlib.a
 bin/InitialDetailedRouter: CMakeFiles/InitialDetailedRouter.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nqyang/routing/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/InitialDetailedRouter"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yi/Utexas/CAD/mycode/CAD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable bin/InitialDetailedRouter"
+>>>>>>> yizheng
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/InitialDetailedRouter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
