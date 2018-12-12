@@ -1,3 +1,7 @@
+#ifndef _RDB
+#define _RDB
+
+
 #include <vector>
 #include <string>
 #include <iostream>
@@ -97,3 +101,4 @@ public:
   }
 
 };
+#endif

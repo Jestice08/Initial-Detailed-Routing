@@ -1,4 +1,4 @@
-# Install script for directory: /home/yi/Utexas/CAD/mycode/CAD
+# Install script for directory: /home/nqyang/routing/CAD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yi/Utexas/CAD/mycode/CAD/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nqyang/routing/CAD/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
